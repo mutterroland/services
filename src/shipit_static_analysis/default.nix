@@ -155,6 +155,7 @@ let
 
     passthru = {
       deploy = {
+        testing = mkBot "testing";
         staging = mkBot "staging";
         production = mkBot "production";
       };
